@@ -10,12 +10,13 @@ Script to convert an Python package into an portable version
 
 ## What will happen
 1. Directory python3.11.4/Lib/site-packages will be created
-2. pip will be installed in this directory
-3. The Dependencies will be installed in this directory
+2. python<ver>._pth file will be edited
+3. pip will be installed in this directory
+4. The Dependencies will be installed in this directory
 
 ## How To Use Portable Version
 You need any other Python version installed on your system.
-Then just add following on top of your python lauch code (assuming its in the same root directory as the directory of step 2):
+Then just add following on top of your python lanuch code (assuming its in the same root directory as the directory of step 2):
 ```
 #!python3.11.4\pythonw.exe
 ```
