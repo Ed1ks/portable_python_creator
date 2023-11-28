@@ -16,9 +16,9 @@ Script to convert an Python package into an portable version
 
 ## How To Use Portable Version
 Possible uses:
-1. If you have any other Python version installed on your system, you just add following on top of your python lanuch code (assuming its in the same root directory as the directory of step 2):
+1. You can add the Path to pythonw.exe as PATH Environment Variable.
+2. If you have any other Python version installed on your system, you just add following on top of your python lanuch code (assuming its in the same root directory as the directory of step 2):
 ```
 #!python3.11.4\pythonw.exe
 ```
 
-2. You can add the Path to pythonw.exe as PATH Environment Variable.
